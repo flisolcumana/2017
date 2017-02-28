@@ -176,50 +176,6 @@ p.social a.email {
     text-align: center !important;
   }
 }
-#page1 {
-  text-align: center;
-  /*background-color: #272822;*/
-  background: url('../img/flisol/2.jpg') center center no-repeat;
-  /*background: url('../img/macbook-juice.jpg') center center no-repeat;*/
-  background-size: cover;
-  color: #fff;
-  /*text-shadow: 2px 2px 2px #000;*/
-}
-#page1 h1,
-#page1 h2,
-#page1 h3 {
-  color: #fff;
-}
-#page1 p {
-  font-size: 20px;
-}
-#page1 .icon {
-  position: absolute;
-  bottom: 40px;
-  left: 50%;
-  margin-left: -20px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  border: solid 2px #fff;
-  border-radius: 20px;
-  z-index: 3;
-}
-#page2 {
-  background: url('../img/flisol/4.jpg') center center no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-}
-#page3 {
-  background: url('../img/flisol/bg.jpg') repeat;
-}
-#page4, #page4 h2 {
-  background-color: #272822;
-  color: #fff;
-}
-#page6 {
-  background-color: #FAFAFA;
-}
 
 body.disabled-onepage-scroll .onepage-wrapper section {
   min-height: 100%;

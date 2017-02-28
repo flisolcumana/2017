@@ -1,1 +1,56 @@
 /* your styles go here */
+
+#page1 { /*FLISoL Cumaná.*/
+  text-align: center;
+  /*background-color: #272822;*/
+  background: url('../img/flisol/bg_page/2.jpg') center center no-repeat;
+  /*background: url('../img/macbook-juice.jpg') center center no-repeat;*/
+  background-size: cover;
+  color: #fff;
+  /*text-shadow: 2px 2px 2px #000;*/
+}
+#page1 h1,
+#page1 h2,
+#page1 h3 {
+  color: #fff;
+}
+#page1 p {
+  font-size: 20px;
+}
+#page1 .icon {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: solid 2px #fff;
+  border-radius: 20px;
+  z-index: 3;
+}
+#page2 { /*Sobre FLISOL*/
+  background: url('../img/flisol/bg_page/4.jpg') center no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  background-size: cover;
+}
+#page3 { /*¿Qué Hacemos?*/
+  background: url('../img/flisol/bg_page/bg.jpg') repeat;
+}
+#page4, #page4 h2 { /*Memorias*/
+  background-color: #272822;
+  color: #fff;
+  padding-top: 1em;
+}
+#page5{ /*¿Cómo Apoyar?*/
+    background: url('../img/flisol/bg_page/11.jpg') center;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  background-size: cover;
+}
+#page6 { /*Contacto*/
+  background-color: #FAFAFA;
+}
