@@ -1,7 +1,11 @@
 /* your styles go here */
 
-.onepage-pagination{
-
+.onepage-pagination li a.active::before{
+  background-color: #fff;
+  border: none;
+}
+.onepage-pagination li a::before{
+  background-color: #D28407;
 }
 
 #page1 { /*FLISoL Cumaná.*/
