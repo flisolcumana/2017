@@ -44,8 +44,8 @@ section {
   top: 0;
   background: #000;
   z-index: 2;
-  opacity: 0.3;
-  filter: alpha(opacity=30);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 .heading {
   text-align: center;
@@ -939,4 +939,9 @@ a.list-group-item.active > .badge,
 }
 .nav-pills > li > a > .badge {
   margin-left: 3px;
+}
+
+.contenido {
+  background-color: rgba(37, 37, 37, 0.6);
+  padding: 4px;
 }

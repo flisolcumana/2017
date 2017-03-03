@@ -34,7 +34,8 @@
   z-index: 3;
 }
 #page2 { /*Sobre FLISOL*/
-  background: url('../img/flisol/bg_page/4.jpg') center no-repeat;
+  /* background: url('../img/flisol/bg_page/4.jpg') center no-repeat; */
+  background: url('../img/nebula.jpg') center no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
