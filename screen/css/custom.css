@@ -53,12 +53,20 @@
   color: #fff;
   padding-top: 0.5em;
 }
-#page5{ /*¿Cómo Apoyar?*/
-    background: url('../img/flisol/bg_page/11.jpg') center;
+#page5 { /*¿Cómo Apoyar?*/
+    background: url('../img/sun2.jpg') center;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
   background-size: cover;
+  /*color: #F29000;*/
+}
+#page5 h2, #page5 h6, #page5 dl {
+  color: #fff;
+  text-shadow: 1px 2px 1px #000;
+}
+#page5 dl > dt {
+  color: #F29000;
 }
 #page6 { /*Contacto*/
   background-color: #FAFAFA;
