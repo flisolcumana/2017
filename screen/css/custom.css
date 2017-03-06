@@ -8,26 +8,11 @@
   background: rgba(242, 162, 24, 0.9);
 }
 
-.fondo-letra{
-     -moz-border-radius: 1em; 
-     -o-border-radius: 1em; 
-     -webkit-border-radius: 1em; 
-  border-radius: 1em; 
-background-color: rgba(0, 0, 0, 0.3); 
-  z-index: 1000;
-}
-
-.letras{
-  padding: 1em;
-}
-
 #page1 { /*FLISoL Cumaná.*/
   text-align: center;
   /*background-color: #272822;*/
-  background: url('../img/flisol/bg_page/2.jpg') center no-repeat;
-      -webkit-background-size: cover;
-     -o-background-size: cover;
-     -moz-background-size: cover;
+  background: url('../img/flisol/bg_page/2.jpg') center center no-repeat;
+  /*background: url('../img/macbook-juice.jpg') center center no-repeat;*/
   background-size: cover;
   color: #fff;
   /*text-shadow: 2px 2px 2px #000;*/
@@ -55,70 +40,26 @@ background-color: rgba(0, 0, 0, 0.3);
 #page2 { /*Sobre FLISOL*/
   /* background: url('../img/flisol/bg_page/4.jpg') center no-repeat; */
   background: url('../img/nebula.jpg') center no-repeat;
-     -webkit-background-size: cover;
-     -o-background-size: cover;
-     -moz-background-size: cover;
-  background-size: cover;
-}
-#page3 {
-  background: url('../img/flisol/bg_page/faq2.png') repeat;
- 
-  /*-webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;*/
-  /*color: #fff;*/
-  /*text-shadow: 2px 2px 2px #000;*/
-}
-#page3  h2 {
-  color: #000 !important;
-}
-#page3 p, #page4{
-  font-size: 18px;
-}
-#page3 > .overlay {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-#page3 a {
-  color: #2DA5E0;
-  font-weight: bold;
-}
-#page4 { /*¿Qué Hacemos?*/
-  background: url('../img/flisol/bg_page/bg.jpg') repeat;
-}
-#page5, #page5 h2 { /*Memorias*/
-  background-color: #272822;
-  color: #fff;
-  padding-top: 0.5em;
-}
-#page6 { /*¿Cómo Apoyar?*/
-    background: url('../img/sun2.jpg') center;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
   background-size: cover;
-  /*color: #F29000;*/
 }
-#page6 h2, #page6 h6, #page6 dl, #page6 p  {
+#page3 { /*¿Qué Hacemos?*/
+  background: url('../img/flisol/bg_page/bg.jpg') repeat;
+}
+#page4, #page4 h2 { /*Memorias*/
+  background-color: #272822;
   color: #fff;
- /* text-shadow: 1px 2px 1px #000;*/
+  padding-top: 0.5em;
 }
-#page6 dl > dt {
-  color: #F29000;
-}
-#page7 { /*Contacto*/
-  /*background-color: #FAFAFA;*/
-  background: url('../img/flisol/bg_page/brown.jpg') repeat;
-  color: #fff;
-     -webkit-background-size: cover;
-     -o-background-size: cover;
-     -moz-background-size: cover;
+#page5{ /*¿Cómo Apoyar?*/
+    background: url('../img/flisol/bg_page/11.jpg') center;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
   background-size: cover;
 }
-#page7 h2{
-  padding-top: 4.2em;
-}
-#page7 h1,
-#page7 h2,
-#page7 h3 {
-  color: #fff;
+#page6 { /*Contacto*/
+  background-color: #FAFAFA;
 }
