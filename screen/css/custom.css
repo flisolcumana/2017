@@ -1,21 +1,32 @@
 /* your styles go here */
 
 .onepage-pagination li a.active::before{
-  /*background-color: #fff;*/
   border: 1px solid #f60;
 }
 .onepage-pagination li a::before{
   background: rgba(242, 162, 24, 0.9);
 }
-
+.fondo-letra{
+     -moz-border-radius: 1em; 
+     -o-border-radius: 1em; 
+     -webkit-border-radius: 1em; 
+  border-radius: 1em; 
+background-color: rgba(0, 0, 0, 0.3); 
+  z-index: 1000;
+  padding:0.2em;
+}
+.letras{
+  padding-left: 20px;
+  padding-right: 20px;
+}
 #page1 { /*FLISoL Cumaná.*/
   text-align: center;
-  /*background-color: #272822;*/
-  background: url('../img/flisol/bg_page/2.jpg') center center no-repeat;
-  /*background: url('../img/macbook-juice.jpg') center center no-repeat;*/
+  background: url('../img/bg_page/2.jpg') center no-repeat;
   background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
   color: #fff;
-  /*text-shadow: 2px 2px 2px #000;*/
 }
 #page1 h1,
 #page1 h2,
@@ -23,7 +34,7 @@
   color: #fff;
 }
 #page1 p {
-  font-size: 20px;
+  font-size: 30px;
 }
 #page1 .icon {
   position: absolute;
@@ -37,55 +48,69 @@
   border-radius: 20px;
   z-index: 3;
 }
+
 #page2 { /*Sobre FLISOL*/
-  /* background: url('../img/flisol/bg_page/4.jpg') center no-repeat; */
-  background: url('../img/nebula.jpg') center no-repeat;
+  background: url('../img/bg_page/nebula.jpg') center no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
   background-size: cover;
 }
+
 #page3 { /*¿Qué Hacemos?*/
-  background: url('../img/flisol/bg_page/bg.jpg') repeat;
+  background: url('../img/bg_page/bg.jpg') repeat;
 }
-#page4{ /*Memorias*/
-  /* background-color: #202A34; */
-  /* background-color: #272822; */
-   background: url('../img/gs.png') repeat;
-  /*background-position: center;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover; */
+ #page3 p{
+  font-size: 18px;
+}
+
+#page4{ /*Memorias*/  
+   background: url('../img/gs.png') repeat;  
   padding-top: 0.5em;
-  color:  #fff !important;
+  color: #FF9800 !important;
 }
 #page4 h2{color:  #fff !important;}
-#page5 { /*Contacto*/
-  /* background-color: #FAFAFA; */
-  background-image: url('../img/ocean.jpg');
+
+#page5 { /*Preguntas Frecuentes*/ 
+  background-image: url('../img/bg_page/ocean.jpg');
   background-position: center;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
+     -webkit-background-size: cover;
+     -o-background-size: cover;
+     -moz-background-size: cover;
   background-size: cover;
-  color:  #fff !important;
+  font-size: 18px;
+  color: #fff !important;
 }
 #page5 h2, #page5 h4{color:#fff !important;}
 #page5 .overlay{
   opacity: 0.65;
 }
 #page6{ /*¿Cómo Apoyar?*/
-    background: url('../img/flisol/bg_page/bg.jpg') repeat;
+    background: url('../img/bg_page/sunset.jpg');
+    background-position: center;
+     -webkit-background-size: cover;
+     -o-background-size: cover;
+     -moz-background-size: cover;
+  background-size: cover;
+    font-size: 18px;
+    color: #fff !important;
+}
+#page6 h2, #page6 h4{color:#fff !important;}
+#page6 .overlay{
+  opacity: 0.60;
+}
+#page6 p.lead {
+  color:#FF9800;
 }
 #page7 { /*Contacto*/
-  /* background-color: #FAFAFA; */
-  background-image: url('../img/img06.jpg');
-  background-position: center;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
+  background: url('../img/bg_page/cumana-7.jpg') no-repeat fixed;
   background-size: cover;
-  color:  #fff !important;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  color: #fff !important;
+}
+#page7 .overlay{
+  opacity: 0.30;
 }
 #page7 h2{color:#fff !important;}
