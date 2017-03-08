@@ -48,18 +48,44 @@
 #page3 { /*¿Qué Hacemos?*/
   background: url('../img/flisol/bg_page/bg.jpg') repeat;
 }
-#page4, #page4 h2 { /*Memorias*/
-  background-color: #272822;
-  color: #fff;
+#page4{ /*Memorias*/
+  /* background-color: #202A34; */
+  /* background-color: #272822; */
+   background: url('../img/gs.png') repeat;
+  /*background-position: center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; */
   padding-top: 0.5em;
+  color:  #fff !important;
 }
-#page5{ /*¿Cómo Apoyar?*/
-    background: url('../img/flisol/bg_page/11.jpg') center;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+#page4 h2{color:  #fff !important;}
+#page5 { /*Contacto*/
+  /* background-color: #FAFAFA; */
+  background-image: url('../img/ocean.jpg');
+  background-position: center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
+  color:  #fff !important;
 }
-#page6 { /*Contacto*/
-  background-color: #FAFAFA;
+#page5 h2, #page5 h4{color:#fff !important;}
+#page5 .overlay{
+  opacity: 0.65;
 }
+#page6{ /*¿Cómo Apoyar?*/
+    background: url('../img/flisol/bg_page/bg.jpg') repeat;
+}
+#page7 { /*Contacto*/
+  /* background-color: #FAFAFA; */
+  background-image: url('../img/img06.jpg');
+  background-position: center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color:  #fff !important;
+}
+#page7 h2{color:#fff !important;}
