@@ -100,10 +100,10 @@ background-color: rgba(0, 0, 0, 0.3);
   opacity: 0.60;
 }
 #page6 p.lead {
-  color:#FF9800;
+  color:#fff;
 }
 #page7 { /*Contacto*/
-  background: url('../img/bg_page/cumana-7.jpg') no-repeat fixed;
+  background: url('../img/bg_page/cumana-7.jpg') no-repeat 2em 1.5cm fixed;
   background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
