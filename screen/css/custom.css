@@ -103,11 +103,11 @@ background-color: rgba(0, 0, 0, 0.3);
   color:#fff;
 }
 #page7 { /*Contacto*/
-  background: url('../img/bg_page/cumana-7.jpg') no-repeat 2em 1.5cm fixed;
-  background-size: cover;
+  background: url('../img/bg_page/cumana-7.jpg') center no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
+  background-size: cover;
   color: #fff !important;
 }
 #page7 .overlay{
