@@ -114,6 +114,17 @@ background-color: rgba(0, 0, 0, 0.3);
   opacity: 0.30;
 }
 #page7 h2 {color:#fff !important;}
+#page7 .icon {
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border: solid 2px #fff;
+  border-radius: 20px;
+  z-index: 3;
+}
 .registro {color:#FF9800 !important; text-decoration: none;}
 .colaboradores{
   width:300px;
