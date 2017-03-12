@@ -65,7 +65,7 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 
 #page4{ /*Memorias*/  
-   background: url('../img/gs.png') repeat;  
+   background: url('../img/bg_page/gs.png') repeat;  
   padding-top: 0.5em;
   color: #FF9800 !important;
 }
@@ -113,4 +113,20 @@ background-color: rgba(0, 0, 0, 0.3);
 #page7 .overlay{
   opacity: 0.30;
 }
-#page7 h2{color:#fff !important;}
+#page7 h2 {color:#fff !important;}
+.registro {color:#FF9800 !important; text-decoration: none;}
+.colaboradores{
+  width:300px;
+  height:300px;
+ border-radius: 50%;
+ -moz-transition: -moz-transform .8s ease-in-out;
+ -o-transition: -o-transform .8s ease-in-out;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.colaboradores:hover {
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
