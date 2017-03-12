@@ -7,5 +7,5 @@ Por favor, respetar el derecho de autor de la plantilla en el footer.
 
 # Visualizar proyecto desde Github Pages
 
-https://flisolcumana.github.io/flisol-info/
+https://flisolcumana.github.io/2017
 
